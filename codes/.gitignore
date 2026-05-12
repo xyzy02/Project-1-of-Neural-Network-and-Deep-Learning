@@ -1,0 +1,8 @@
+# Ignore dataset compressed files
+dataset/*.gz
+
+# Ignore pickle files
+*.pickle
+
+# Ignore trained models
+best_models*

@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+.venv/
+venv/
+env/
+
+# MNIST and other datasets (do not commit large binaries)
+**/dataset/**/*.gz
+**/dataset/**/*.ubyte
+**/dataset/**/*.bin
+
+# Saved checkpoints and training artifacts
+**/*.pickle
+**/best_model*.pickle
+**/best_models/
+**/best_models_mlp/
+**/best_models_cnn/
+**/partc_mlp_*/
+**/_tmp_best/
+**/idx.pickle
+
+# IDE / OS
+.idea/
+.vscode/
+.cursor/
+.DS_Store
+Thumbs.db
+
+Optional: uncomment if figure PNGs are large and you host them elsewhere
+*.png
